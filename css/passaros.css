@@ -1,0 +1,70 @@
+.birds{
+    background: url("https://p2.piqsels.com/preview/307/779/725/sky-cloud-sea-beach.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    height: 500px; 
+    
+}
+.box-birds{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100vh;
+}
+.box-text-birds{
+    background-color: black;
+    border-top: 8px solid #f2cd00;
+    box-sizing: border-box;
+    height: 302px;
+    margin-top: 20px;
+    opacity: 0.8;
+    width: 250px; 
+}
+.title-box-birds{
+    margin: 15px 7.5px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.description-box-birds{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJpTS-KqZ_MiNQ0BOJBT78ezdvKMp4B26H_g&usqp=CAU") no-repeat;
+    background-size: cover;;
+    color: black;
+    float: right;
+    height: 200px;
+    font-size: .5rem;
+    text-align: right;
+    text-transform: lowercase;
+    width: 200px;
+}
+p{
+    align-items: flex-end;
+}
+.box-border-birds{
+    border: 15px solid #f2cd00;
+    box-sizing: border-box;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 150px;
+}
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .birds{
+        background-size: cover;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        height: 100vh;
+        width: 100vh;
+    }
+    .box-border-birds{
+        display: none;
+    }
+    .description-box-birds{
+        background: none;
+        color: antiquewhite;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}

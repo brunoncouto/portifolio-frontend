@@ -1,0 +1,79 @@
+.montanhas{
+    background: url("https://pixnio.com/free-images/2019/07/24/2019-07-24-05-22-44-1200x675.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.box-montanhas{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.box-text-montanhas{
+    background-color: black;
+    border-top: 8px solid #f2cd00;
+    box-sizing: border-box;
+    height: 230px;
+    margin-top: 20px;
+    opacity: 0.4;
+    width: 300px;    
+}
+.title-box-montanhas{
+    margin: 10px 7.5px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.description-box-montanhas{
+    font-size: 0.75rem;
+    margin: 10px 7.5px;
+    text-align: justify;
+}
+.button{
+    background-color: black;
+    box-sizing: border-box;
+}
+.button-text{
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 5px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.button-text:hover{
+    color: #f2cd00;
+}
+.box-border-montanhas{
+    border: 8px solid #f2cd00;
+    box-sizing: border-box;
+    height: 300px;
+    margin-top: 50px;
+    width: 150px;
+}
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .montanhas{
+        background-size: cover;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        height: 100vh;
+        width: 100vh;
+    }   
+    .box-border-montanhas{
+        visibility: hidden;
+    }
+    .box-text-montanhas{
+        margin: 0 auto
+
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .box-montanhas{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .box-border-montanhas{
+        margin-right: 80px ;
+
+    }
+}

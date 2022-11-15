@@ -1,0 +1,128 @@
+.forest{
+    display: flex;
+    height: 100vh;
+}
+.animal{
+    background: url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDNfPv-HD4yruHP1lz6jIDUpBkRIvrLSi4st18NMKaP28N-d3x1YSFX_PPoEqxVY4BMWIZ1nFvjSTU9gwY8TqqWiEBkmsG6_pFNt7701lnf-8NOLx_vTYuRFGCWoyaoVE44dTioAYIstQK2o0kj39pSqCWFqzHzZS1Z7KCgj9xBYmZw.jpg?w=1900&h=1267")
+    no-repeat;
+    background-size: 100vh 104vh;
+    height: 100vh;
+    padding-top: 20px;
+    width: 50%;
+
+}
+.box-text-forest{
+    background-color: black;
+    border-top: 8px solid #f2cd00;
+    box-sizing: border-box;
+    height: 175px;
+    opacity: 0.8;
+    width: 400px; 
+}
+.box-title-forest{
+    color: antiquewhite;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: .5rem;
+    text-transform: uppercase;
+}
+.box-description-forest{
+    color: antiquewhite;
+    font-size: 1rem;
+    padding: .5rem;
+    text-align: justify;
+    text-transform: lowercase;
+}
+.info{
+    background-color: antiquewhite;
+    color: #333333;
+    width: 50%;
+    height: 100vh;
+}
+.info-title{
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info-subtitle{
+    background-color: #000000;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: fit-content;
+}
+.menu-forest{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu-forest-item, img{
+    align-items: baseline;
+    height: 20px;
+    list-style: none;
+    width: 20px;
+}
+.menu-forest-item:first-child{
+    margin-left: 5%;
+}
+.menu-forest-item:last-child{
+    margin-right: 5%;
+}
+.description-title-forest, .description-text-forest{
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+}
+.description-title-forest{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.description-text-forest{
+    font-size: .75rem;
+    font-weight: 500;
+    text-align: justify;
+    text-transform: lowercase;
+}
+/* .mapa-local{
+    height: 430px;
+} */
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .forest{
+        display: block;
+    }
+    .animal{
+        background-size: contain;
+        width: 100vh;
+        padding-top: 10px;
+    }
+    .info{
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .box-text-forest{
+        height: fit-content ;
+        width: 180px;
+    }
+    .menu-forest{
+        justify-content: space-around;
+       
+    }
+}
+@media screen and (min-width: 728px) and (max-width: 1023px) {
+    .animal{
+        background-size: 94vh 104vh;
+        height: 104vh;;
+    }
+    .box-text-forest{
+        height: fit-content ;
+        width: 180px;
+    }
+    .menu-forest{
+        justify-content: space-around;
+       
+    }
+}
